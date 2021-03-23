@@ -1,0 +1,1 @@
+Python 3.6.9 is bigger than 2. Python 3 is better than python 2 because it supports modern techniques such as AI, machine learning and data science. Python 3 is maintained by the Python developer community. Help can be easily obtained. COmbines well with other languages

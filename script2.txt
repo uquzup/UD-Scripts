@@ -1,0 +1,28 @@
+system version: 
+ Linux rogers1275-VirtualBox 5.4.0-67-generic #75~18.04.1-Ubuntu SMP Tue Feb 23 19:17:50 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+info about interfaces: 
+ enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::c08f:d2d8:3b9f:db80  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:33:b2:5c  txqueuelen 1000  (Ethernet)
+        RX packets 6167  bytes 5524441 (5.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1606  bytes 126153 (126.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Локальна петля (Loopback))
+        RX packets 200  bytes 17111 (17.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 200  bytes 17111 (17.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+info about firewall status: 
+ Стан: активний
+
+info about firewall version: 
+ ufw 0.36
+Copyright 2008-2015 Canonical Ltd.
