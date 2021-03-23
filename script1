@@ -1,0 +1,9 @@
+#! /bin/bash
+
+python3_version=$(python3 --version)
+if [ "$python3_version" > 2 ] 
+then
+echo "$python3_version is bigger than 2. Python 3 is better than python 2 because it supports modern techniques such as AI, machine learning and data science. Python 3 is maintained by the Python developer community. Help can be easily obtained. COmbines well with other languages" > script1.txt
+else
+echo "failed" >> script1.txt
+fi

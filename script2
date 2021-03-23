@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo -e "system version: \n `uname -a`" > script2.txt
+echo >> script2.txt
+echo -e "info about interfaces: \n `ifconfig`" >> script2.txt
+echo >> script2.txt
+echo -e "info about firewall status: \n `sudo ufw status`" >> script2.txt
+echo >> script2.txt
+echo -e "info about firewall version: \n `sudo ufw version`" >> script2.txt
+

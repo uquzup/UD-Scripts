@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo -e "uptime: \n `uptime`" > script3.log
+echo >> script3.log
+echo -e "current users: \n `who`" >> script3.log
+echo >> script3.log
+echo -e "last logins: \n `last`" >> script3.log
+echo >> script3.log
+echo -e "top-10 processes by RAM/CPU usage: \n `ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head`" >> script3.log
+echo >> script3.log
+echo -e "open tcp/udp ports: \n `ss -tulpn`" >> script3.log
+echo >> script3.log
+echo -e "virtual memory usage: \n `free`" >> script3.log
+echo >> script3.log
+echo -e "usage of disk space: \n `df -h`" >> script3.log
